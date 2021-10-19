@@ -1,4 +1,6 @@
-const { GenerateRSAKeyPair } = require( "./GenerateRSAKeyPair" );
+const { GenerateRSAKeyPair, Encrypt, Decrypt } = require( "./GenerateRSAKeyPair" );
 module.exports = {
-    GenerateRSAKeyPair
+    GenerateRSAKeyPair,
+    Encrypt,
+    Decrypt
 };
